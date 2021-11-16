@@ -2306,3 +2306,230 @@ Did you mean?  before_commit):
 app/models/order_item.rb:6:in `<class:OrderItem>'
 app/models/order_item.rb:1:in `<main>'
 app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:32:41 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.7ms | Allocations: 16474)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:32:42 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.4ms | Allocations: 5739)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:32:43 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.2ms | Allocations: 5527)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:32:56 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.2ms | Allocations: 5527)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:34:51 +0530
+Processing by ShopsController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.0ms | Allocations: 12361)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:38:26 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.3ms | Allocations: 7668)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:38:26 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.2ms | Allocations: 5512)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:54:14 +0530
+Processing by ShopsController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.6ms | Allocations: 12017)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:54:15 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.4ms | Allocations: 5631)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:54:16 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.3ms | Allocations: 5513)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 15:54:17 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.3ms | Allocations: 5513)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:01:14 +0530
+Processing by ShopsController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.7ms | Allocations: 12016)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:01:16 +0530
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.2ms | Allocations: 5631)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 16:26:00 +0530
+Processing by ShopsController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.8ms | Allocations: 11957)
+
+
+  
+NoMethodError (undefined method `before_action' for OrderItem:Class
+Did you mean?  before_commit):
+  
+app/models/order_item.rb:6:in `<class:OrderItem>'
+app/models/order_item.rb:1:in `<main>'
+app/controllers/shops_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2021-11-16 17:21:31 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShopsController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  Rendering layout layouts/application.html.erb
+  Rendering shops/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/shops/index.html.erb:17
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/application_helper.rb:7:in `current_order'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items" WHERE "order_items"."order_id" = ?[0m  [["order_id", 1]]
+  ↳ app/views/shops/index.html.erb:42
+  Rendered shops/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 7286)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 16075)
+Completed 200 OK in 64ms (Views: 34.6ms | ActiveRecord: 1.5ms | Allocations: 35896)
+
+

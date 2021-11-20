@@ -1,53 +1,32 @@
-<div id="header">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand">
-    Ecommerce_Business
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+
+<%= link_to 'Ecommerce Business', root_path, class:"navbar-brand" %>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto  ">
-        <li class="nav-item ">
-          <a class="nav-link"><i class="fas fa-home"></i>Customer <span class="sr-only"></span></a>
-        </li>
-        <li><a  class="nav-link" routerLink="signup" routerLinkActive="active"><i class="fas fa-user-plus"></i> Product</a></li>
-        <li><a  class="nav-link" routerLink="login" routerLinkActive="active"><i class="fas fa-sign-in-alt"></i> Order</a></li>
-        <li><a  class="nav-link" routerLink="login" routerLinkActive="active"><i class="fas fa-sign-in-alt"></i> Address</a></li>
-      </ul>
-    </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <%= link_to "Products", products_path, class:"nav-link" %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to "Cart", cards_path, class:"nav-link" %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to "Orders", order_items_path, class:"nav-link" %>
+      </li>
+
+      
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
 </nav>
-</div>
-
-# Customer form
-<form>
- <div class="form-group row">
-    <label for="name" class="col-sm-2 col-form-label">Name</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control-plaintext" id="name" placeholder="Enter Full Name">
-    </div>
-  </div>
- 
- <div class="form-group row">
-    <label for="phone" class="col-sm-2 col-form-label">Phone No</label>
-    <div class="col-sm-10">
-      <input type="number" class="form-control-plaintext" id="phone" placeholder="Enter Phone No">
-    </div>
- </div>
- <div class="form-group row">
-    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control-plaintext" id="staticEmail" placeholder="Enter Email Id">
-    </div>
-  </div>
- <div class="form-group row">
-    <label for="address" class="col-sm-2 col-form-label">Address</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control-plaintext" id="address" placeholder="Enter Address">
-    </div>
-  </div>
-</form>
-# Customer form end
-
-
